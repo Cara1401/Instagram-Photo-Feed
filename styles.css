@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(236, 236, 236);
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    background-color: white;
+    height: 80px;
+}
+
+header h1 {
+    padding: 20px;
+    font-size: 35px;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+}
+
+.post {
+    background-color: white;
+    border-radius: 2px;
+    margin: 50px 0;
+}
+
+.post-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+}
+
+.post-title h2 {
+    font-size: 1em;
+}
+
+.post-title p {
+    color: rgb(182, 182, 182);
+}
+
+.post img {
+    width: 100%;
+    border-top: 1px solid rgb(240, 240, 240);
+}
+
+.post .img-noodles {
+    padding: 100px 0;
+}
+
+.post>p{
+    padding: 13px;
+    border-top: 1px solid rgb(240, 240, 240);
+}
